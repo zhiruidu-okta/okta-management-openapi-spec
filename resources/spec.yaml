@@ -10687,6 +10687,9 @@ definitions:
         type: string
     type: object
     x-okta-crud:
+      - alias: read
+        arguments: []
+        operationId: getOrgSettings
       - alias: update
         arguments:
           - dest: orgSetting

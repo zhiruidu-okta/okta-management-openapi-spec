@@ -13,7 +13,7 @@
       "name": "Apache-2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "version": "2.7.1"
+    "version": "2.7.2"
   },
   "externalDocs": {
     "description": "Find more info here",
@@ -18565,6 +18565,11 @@
       },
       "type": "object",
       "x-okta-crud": [
+        {
+          "alias": "read",
+          "arguments": [],
+          "operationId": "getOrgSettings"
+        },
         {
           "alias": "update",
           "arguments": [
